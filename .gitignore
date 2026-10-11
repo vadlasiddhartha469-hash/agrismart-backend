@@ -1,0 +1,38 @@
+# Environment variables and sensitive secrets
+.env
+.env.local
+.env.*.local
+
+# Node / Frontend build
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Maven / Java backend build
+target/
+backend/target/
+*.class
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Maven wrapper build output
+**/target/
+
+# Frontend build output
+**/dist/
